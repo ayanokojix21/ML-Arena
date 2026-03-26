@@ -1,26 +1,38 @@
 # 03 Decision Tree
 
-## Goal
+## Overview
 
-Build a tree-based classifier from scratch and compare with library baseline.
+In this problem, you will build a tree based classification model and understand how decisions are made through recursive splits of the data.
+
 
 ## Dataset
 
-Use `problems/03_decision_tree/dataset.csv` (already committed).
+Path: `problems/03_decision_tree/dataset.csv`
 
-- Source: UCI Adult / Census Income (id=2)
-- Shape: 10000 rows, 15 columns after dropping rows with missing placeholders
-- Target column: `income`
+* Source: UCI Adult / Census Income
+* Rows: 10000
+* Columns: 15 (after preprocessing)
+* Target: `income`
 
-## Suggested Beginner Issues
 
-- Exploration: Data quality checks plus confusion-matrix and depth-behavior plots.
-- Scratch: Implement Gini impurity and recursive split.
-- Library: Train sklearn DecisionTreeClassifier baseline.
-- Optimization: Add max_depth tuning and pruning comparison.
+## What You Will Do
 
-## Target Files by Task Type
+Depending on the task type, your work may include:
 
-- Exploration: exploration/exploration.ipynb
-- Scratch training: scratch/training.ipynb
-- Library training: library/training.ipynb
+* Checking data quality and understanding feature impact
+* Implementing a decision tree using Gini impurity and recursive splitting
+* Training a baseline model using sklearn
+* Comparing performance with depth tuning or pruning
+
+
+## Where to Work
+
+Use the notebook based on your task:
+
+```id="v1q3zx"
+exploration/exploration.ipynb
+scratch/training.ipynb
+library/training.ipynb
+```
+
+Focus on how splits are chosen and how tree structure affects model performance.

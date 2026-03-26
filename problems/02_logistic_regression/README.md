@@ -1,25 +1,39 @@
 # 02 Logistic Regression
 
-## Goal
+## Overview
 
-Classify inputs into discrete classes.
+In this problem, you will build a classification model to assign inputs to discrete classes. This introduces you to probabilistic modeling and decision boundaries.
+
 
 ## Dataset
 
-Use `problems/02_logistic_regression/dataset.csv` (already committed).
+Path: `problems/02_logistic_regression/dataset.csv`
 
-- Source: UCI Spambase (id=94)
-- Shape: 4601 rows, 58 columns (57 features + label)
-- Target column: `Class`
+* Source: UCI Spambase
+* Rows: 4601
+* Columns: 58 (57 features + 1 label)
+* Target: `Class`
 
-## Suggested Beginner Issues
 
-- Exploration: Class balance, feature patterns, and decision boundary style plots.
-- Scratch: Implement logistic regression (sigmoid + gradient descent).
-- Library: Train sklearn LogisticRegression baseline.
+## What You Will Do
 
-## Target Files by Task Type
+Depending on the task type, your work may include:
 
-- Exploration: exploration/exploration.ipynb
-- Scratch training: scratch/training.ipynb
-- Library training: library/training.ipynb
+* Analyzing class distribution and feature patterns
+* Implementing logistic regression using sigmoid and gradient descent
+* Training a baseline model using sklearn
+* Understanding how the model separates classes
+
+
+## Where to Work
+
+Use the notebook based on your task:
+
+```
+exploration/exploration.ipynb
+scratch/training.ipynb
+library/training.ipynb
+```
+
+
+Focus on understanding how classification differs from regression and how model decisions are formed.

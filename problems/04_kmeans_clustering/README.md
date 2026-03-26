@@ -1,25 +1,39 @@
 # 04 K-Means Clustering
 
-## Goal
+## Overview
 
-Group unlabeled samples into clusters using centroid-based clustering.
+In this problem, you will group data points into clusters without using labeled outputs. This introduces unsupervised learning and how structure can be discovered from data.
+
 
 ## Dataset
 
-Use `problems/04_kmeans_clustering/dataset.csv` (already committed).
+Path: `problems/04_kmeans_clustering/dataset.csv`
 
-- Source: UCI Wholesale Customers (id=292)
-- Shape: 440 rows, 6 feature columns
-- Notes: No target column is used for clustering.
+* Source: UCI Wholesale Customers
+* Rows: 440
+* Columns: 6 features
+* Note: No target variable is provided
 
-## Suggested Beginner Issues
 
-- Exploration: Cluster tendency, feature spread, elbow curve, and centroid movement plots.
-- Scratch: Implement K-Means with centroid update loop.
-- Library: Train sklearn KMeans baseline.
+## What You Will Do
 
-## Target Files by Task Type
+Depending on the task type, your work may include:
 
-- Exploration: exploration/exploration.ipynb
-- Scratch training: scratch/training.ipynb
-- Library training: library/training.ipynb
+* Understanding feature distribution and cluster tendency
+* Implementing K Means using centroid initialization and iterative updates
+* Training a baseline model using sklearn
+* Analyzing how cluster count affects results
+
+
+## Where to Work
+
+Use the notebook based on your task:
+
+```id="y6k2jm"
+exploration/exploration.ipynb
+scratch/training.ipynb
+library/training.ipynb
+```
+
+
+Focus on how clusters are formed and how the algorithm converges over iterations.

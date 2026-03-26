@@ -1,26 +1,39 @@
 # 01 Linear Regression
 
-## Goal
+## Overview
 
-Predict a continuous value from input features.
+In this problem, you will build a model to predict a continuous value based on input features. This is a fundamental regression task and a good starting point for understanding how learning algorithms work.
+
 
 ## Dataset
 
-Use `problems/01_linear_regression/dataset.csv` (already committed).
+Path: `problems/01_linear_regression/dataset.csv`
 
-- Source: UCI Concrete Compressive Strength (id=165)
-- Shape: 1030 rows, 9 columns (8 features + target)
-- Target column: `Concrete compressive strength`
+* Source: UCI Concrete Compressive Strength
+* Rows: 1030
+* Columns: 9 (8 features + 1 target)
+* Target: `Concrete compressive strength`
 
-## Suggested Beginner Issues
 
-- Exploration: Explore distributions, outliers, correlations, and model behavior plots.
-- Scratch: Implement linear regression with gradient descent using numpy.
-- Library: Train and evaluate sklearn LinearRegression baseline.
-- Optimization: Add momentum and compare convergence.
+## What You Will Do
 
-## Target Files by Task Type
+Depending on the task type, your work may include:
 
-- Exploration: exploration/exploration.ipynb
-- Scratch training: scratch/training.ipynb
-- Library training: library/training.ipynb
+* Exploring feature distributions, correlations, and data quality
+* Implementing linear regression from scratch using gradient descent
+* Training a baseline model using sklearn
+* Improving convergence using techniques like momentum
+
+
+## Where to Work
+
+Use the notebook based on your task:
+
+```
+exploration/exploration.ipynb
+scratch/training.ipynb
+library/training.ipynb
+```
+
+
+Focus on clarity in your implementation and understanding how the model behaves on this dataset.
